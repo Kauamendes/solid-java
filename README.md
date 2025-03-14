@@ -30,6 +30,26 @@ Os princípios SOLID são diretrizes que ajudam a criar um código mais modular,
 4. **Interface Segregation Principle (ISP)** - Nenhuma classe deve ser forçada a implementar interfaces que não usa.
 5. **Dependency Inversion Principle (DIP)** - Os módulos de alto nível não devem depender de módulos de baixo nível, ambos devem depender de abstrações.
 
+### SOLID e Orientação a Objetos
+
+Os princípios SOLID nada mais são do que a boa utilização dos conceitos da Programação Orientada a Objetos (POO). Seguir esses princípios ajuda a criar código mais coeso, desacoplado e sustentável ao longo do tempo.
+
+Além disso, alguns princípios do SOLID combinam muito bem com o uso de padrões de projeto (Design Patterns). Por exemplo:
+- **SRP** pode ser aplicado com padrões como **Factory Method** para separar responsabilidades.
+- **OCP** pode ser aplicado em conjunto com o padrão **Strategy** para permitir extensibilidade sem modificar o código existente.
+- **LSP** se relaciona com o uso correto de herança e polimorfismo.
+- **ISP** se relaciona com o uso de **Interfaces Segregadas**, garantindo que cada interface tenha apenas os métodos necessários para uma determinada funcionalidade.
+- **DIP** pode ser implementado com **Dependency Injection** e o padrão **Adapter**, promovendo melhor organização do código.
+
+Entender quando flexibilizar essas boas práticas é tão importante quanto conhecê-las!
+
+Além do SOLID, é interessante conhecer outros princípios como:
+- **KISS (Keep It Simple, Stupid)** - Mantenha o código simples e direto.
+- **YAGNI (You Aren't Gonna Need It)** - Não implemente algo que não é necessário no momento.
+- **DRY (Don't Repeat Yourself)** - Evite repetição de código e promova reutilização.
+
+Esses princípios ajudam a evitar overengineering e garantem que o código seja eficiente e fácil de manter.
+
 ## Tecnologias Utilizadas
 
 - **Java 17+**
@@ -58,22 +78,3 @@ Os princípios SOLID são diretrizes que ajudam a criar um código mais modular,
    ```sh
    mvn test
    ```
-
-## Contribuição
-
-Caso queira contribuir, siga estes passos:
-
-1. Faça um fork do repositório.
-2. Crie uma branch para sua feature (`git checkout -b minha-feature`).
-3. Faça commit das suas alterações (`git commit -m 'Adiciona nova funcionalidade'`).
-4. Faça push para a branch (`git push origin minha-feature`).
-5. Abra um Pull Request.
-
-## Autor
-
-Projeto criado por [Kaua Mendes](https://github.com/seu-usuario) para documentar e praticar os conceitos SOLID com Java e Spring.
-
----
-
-Se tiver dúvidas ou sugestões, fique à vontade para abrir uma issue ou contribuir! 🚀
-
