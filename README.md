@@ -41,7 +41,7 @@ Além disso, alguns princípios do SOLID combinam muito bem com o uso de padrõe
 - **ISP** se relaciona com o uso de **Interfaces Segregadas**, garantindo que cada interface tenha apenas os métodos necessários para uma determinada funcionalidade.
 - **DIP** pode ser implementado com **Dependency Injection** e o padrão **Adapter**, promovendo melhor organização do código.
 
-Entender quando flexibilizar essas boas práticas é tão importante quanto conhecê-las!
+### Entender quando flexibilizar essas boas práticas é tão importante quanto conhecê-las!
 
 Além do SOLID, é interessante conhecer outros princípios como:
 - **KISS (Keep It Simple, Stupid)** - Mantenha o código simples e direto.
